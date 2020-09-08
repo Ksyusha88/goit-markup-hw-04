@@ -355,6 +355,27 @@ img{
     margin-right: 0px;
 }
 
+
+.list-social:not(:last-child){
+    margin-right: 10px;
+}
+
+.list-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color:#FFFFFF;
+    border-radius: 50px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+
+}
+
 /* .team-list:nth-last-child(-n + 5){
     margin-bottom: 0px;
 } */
