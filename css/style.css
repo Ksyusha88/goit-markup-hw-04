@@ -105,6 +105,14 @@ a {
     padding-left: 0px;
 } 
 
+/* .adress-item:hover{
+    color:#2196F3;
+}
+
+.adress-item:hover .icon-adr{
+    fill: #757575;
+} */
+
 .adress-list svg{
     display: inline-block;
     margin-right: 10px;
