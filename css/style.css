@@ -31,7 +31,7 @@ a {
     }
 .logo-footer{
         color: #FFFFFF;
-    }
+    } 
 
 .page-header{
     width: 1170px;
@@ -47,19 +47,6 @@ a {
     font-size: 14px;
     color: #212121; 
 }
-
-
-/* .adress-list:hover
-{
-    color: #2196F3;
-}
-
-.meny-nav:hover{
-    
-    fill: #2196F3;
-    color: #2196F3;
-} */
-
  
 .meny-nav.current{
     color: #2196F3;
@@ -105,24 +92,25 @@ a {
     padding-left: 0px;
 } 
 
-/* .adress-item:hover{
-    color:#2196F3;
-}
-
-.adress-item:hover .icon-adr{
-    fill: #757575;
-} */
-
-.adress-list svg{
+.adress-list .icon-adr{
     display: inline-block;
     margin-right: 10px;
     fill: #757575;
 }
 
-.adress-list :hover{
-    fill:#2196F3;
+.adress-item:hover .icon-adr {
+    fill: #2196F3;
+}
+
+.adress-item:hover {
     color:#2196F3;
 }
+
+
+/* .adress-list :hover{
+    fill:#2196F3;
+    color:#2196F3;
+} */
 .adress-flax .mail{
     text-decoration: none;
     font-family: Roboto;
@@ -156,10 +144,6 @@ background-size: contain;
     justify-content: flex-end;
     margin-right: auto;
 }
-
-/* .navigation-adres{
-
-} */
 
 
 /* Эффективные решения для вашего бизнеса */
