@@ -10,8 +10,7 @@
 </head>
 <body>
     <header class="page-header">
-        <div class="header-container">  
-    
+    <div class="header-container">  
     <nav class="navigation">  
         <a href=""class="logo"><span class="logo-header">Web</span>Studio</a>
         <ul class="list-flax">
@@ -20,11 +19,18 @@
           <li class="list-item"><a href=""class="meny-nav">Контакты</a></li>
         </ul>
     </nav>
-        <address class="adress-flax">
-            <a href="mailto:info@devstudio.com"class="meny-nav mail">info@devstudio.com</a><br>
-            <a href="+38-096-111-11-11"class="meny-nav tell">+38(096)1111111</a>
-        </address>
-        </div>
+    <ul class="adress-flax"> 
+        <li class="adress-list">
+            <a class="meny-nav mail adress-item" href="mailto:info@devstudio.com">
+                <svg width="16px" height="12px" class="icon-adr"><use href="./image/иконки/sprite(1).svg#конверт"></use></svg>info@devstudio.com
+            </a>
+        </li>
+        <li class="adress-list">
+            <a class="meny-nav tell adress-item" href="+38-096-111-11-11">
+                <svg width="10px" height="15px" class="icon-adr"><use href="./image/иконки/sprite(1).svg#смартфон"></use></svg>+38(096)111 11 11
+            </a>
+        </li>
+    </ul>
     </header>
 
 <div class="conteiner-portfolio">
@@ -127,14 +133,44 @@
 
 <footer class="fotter">
     <div class="fotter-position">
-        <a href=""class="logo-footer"><span class="fotter-logo">Web</span>Studio</a>
-    
-    <address class="list">
-        <span class="fotter-adress">г. Киев, пр-т Леси Украинки, 26</span><br>
-        <a href="mailto:info@devstudio.com" class="fotter-nav">info@devstudio.com</a><br>
-        <a href="+38-096-111-11-11" class="fotter-nav">+38(096)11-11-111</a>
-    </address>
-    </div>
+        <div class="fotter-list">
+                <a href=""class="logo-footer"><span class="fotter-logo">Web</span>Studio</a>
+            <!-- <div class="adress-list"> -->
+                <address class="list">
+                    <span class="fotter-adress">г. Киев, пр-т Леси Украинки, 26</span><br>
+                    <a href="mailto:info@devstudio.com" class="fotter-nav">info@devstudio.com</a><br>
+                    <a href="+38-096-111-11-11" class="fotter-nav">+38(096)11-11-111</a>
+                </address>
+            <!-- </div> -->
+        </div>
+    <div class="fotter-list">
+        <h2>Присоединяйтесь</h2>
+        <div class="fotter-social-list">
+            <ul class="social-net">
+                <li class="list-social-fot">
+                    <a class="fotter-social-link" href="https://www.instagram/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Инстаграм">
+                        <svg class="icon-ft"><use href="./image/иконки/sprite.svg#instagram 2"></use></svg>
+                    </a>   
+                </li>
+                <li class="list-social-fot">
+                    <a class="fotter-social-link" href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Твитер">
+                        <svg class="icon-ft"><use href="./image/иконки/sprite.svg#twitter 1"></use></svg>
+                    </a>
+                </li>
+                <li class="list-social-fot">
+                    <a class="fotter-social-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Фейсбук">
+                        <svg class="icon-ft"><use href="./image/иконки/sprite.svg#facebook 1"></use></svg>
+                    </a>
+                </li>
+                <li class="list-social-fot">
+                    <a class="fotter-social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="ссылка Линкедин">
+                        <svg class="icon-ft"><use href="./image/иконки/sprite.svg#linkedin 1"></use></svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+</div>   
 </footer>
 </body>
 </html>
