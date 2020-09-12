@@ -396,6 +396,8 @@ img{
     justify-content: center;
     /* align-items: center; */
     padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .list-social{
@@ -539,7 +541,7 @@ img{
 }
 
 .fotter-position h2{
-    text-align:center;
+    /* text-align:center; */
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -547,7 +549,7 @@ img{
     text-transform: uppercase;
     margin-top: 15px;
     color: #FFFFFF;
-    position: absolute;
+    /* position: absolute; */
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -585,7 +587,7 @@ img{
     font-size: 26px;
     inline-size: 1.2;
     line-height: 31px;
-    position: absolute;
+    /* position: absolute; */
     margin: 0px;
 }
 .fotter-nav{
@@ -615,6 +617,10 @@ img{
 
 .fotter-social-link:hover{
     background: #2196F3;
+}
+
+.list-social-fot:not(:last-child){
+    margin-right: 10px;
 }
 
 
