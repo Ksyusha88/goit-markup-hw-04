@@ -445,7 +445,7 @@ img{
 .client-brand{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
@@ -459,7 +459,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90px;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
@@ -492,13 +491,27 @@ img{
     fill: #2196F3;
 }
 
+.client-brand-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 90px; 
+}
+
+
+.client-brand-link:hover .brand{
+    fill: #2196F3;
+    
+}
+
 .brand{ 
     fill: #afb1b8;
 }
 
-.brand:hover{
+/* .brand:hover{
     fill: #2196F3;
-}
+} */
 
 /* Подвал */
 
@@ -662,6 +675,10 @@ img{
 .team-folio:nth-last-child(-n + 4){
     margin-bottom: 0px;
 } 
+
+.team-folio:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .folio-card{
     /* margin-top: 34px;
